@@ -1,3 +1,4 @@
+# includes
 ## includes
 보통 n+1 문제를 해결하기 위해 includes를 많이 사용한다. includes의 기본적인 동작은 preload이지만 특정 조건에서 eager_load와 같은 동작을 한다.
 
