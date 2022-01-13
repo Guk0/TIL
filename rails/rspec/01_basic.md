@@ -28,6 +28,9 @@
     - should는 메타 프로그래밍을 사용하고 있어 드물게 불일치가 발생하였다. 그래서 expect가 사용되어 진다.
 - describe 중 복수의 example(it ... do ... end)를 사용할 수 있다.
 
+
+<br/>  
+
 ## 복수 개의 example
 ```ruby
 	it '사칙연산' do
@@ -40,6 +43,8 @@
 - 1개의 example(it)에서 여러개의 expectation을 사용할 수 있다.
 - 다만 테스트가 실패하였을 때 어느 expectation이 통과하였는지 알 수 없다.
 - 1개의 example에는 1개의 expectation을 사용하는 것이 원칙이다.
+
+<br/>  
 
 ## nested describe
 ```ruby
@@ -58,6 +63,8 @@ RSpec.describe  "설명" do
 end
 ```
 - 가장  상위의 describe외의 다른 describe에서는 RSpec. 생략 가능
+
+<br/>  
 
 ## before
 before은 describe나 context 에서 사용 가능하다. 
@@ -89,6 +96,8 @@ RSpec.describe  "설명" do
 end
 ```
 
+<br/>  
+
 ## let
 ```ruby
 before do 
@@ -110,13 +119,22 @@ let(:params) do
 end
 ```
 
+<br/>  
+
 ## change by
 ```ruby
   expect { delete post_url(mock_post) }.to change(Post, :count).by(-1)
 ```
 - expect 블럭과 change 함수 두 개로 나눠 생각하면 됨. 
 - expect 블럭과 change 함수의 인자 Post.count가 몇개가 차이 날지를 테스트하는 함수. by(-1)이므로 expect block(0개) - Post.count(1개) = -1
+  
+<br/>  
+    
+## let vs before
+- let : let 블럭안에 있는 식을 호출되는 시점에 실행한다. 정의된 코드 순서는 상관없다.
+- before : example이 실행되기 전에 실행된다.
 
+<br/>  
 
 ## subject
 
@@ -163,6 +181,8 @@ it 'has a body' do
 end
 ```
 
+<br/>  
+
 ## example, specify
 it의 ailas. 자연스러운 영문화를 위해 사용한다.
 
@@ -183,8 +203,28 @@ example 'has a body' do
 end
 ```
 
-## shared_examples  / it_behaves_like
 
+<br/>  
+
+## shared_examples  / it_behaves_like
+- example block을 shared_examples로 정의하여 여러 곳에서 사용 가능.
+
+```ruby
+...
+	let(:post) { Post.new(title: "", body: "", user: current_user, views: 0) }
+  subject { post }
+
+  shared_examples 'be_valid' do
+    it { is_expected.to be_valid }
+  end
+
+	context '0살의 경우' do
+		it_behaves_like 'be_valid'
+  end
+...
+
+```
+<br/>  
 
 ## let!
 ```ruby
@@ -203,6 +243,8 @@ RSpec.describe Post do
 end
 ```
 
+<br/>  
+
 ## pending
 
 ```ruby
@@ -210,8 +252,12 @@ pending "add some examples to (or delete) #{__FILE__}"
 ```
 - 보류. 실행을 중단하는 것이 아니라 실행을 그대로 이어 나감.
 
+<br/>  
+
 ## skip
 - 보류와는 반대로 skip아래부터 실행을 중단함.
+
+<br/>  
 
 ## xit
 ```ruby
@@ -224,6 +270,8 @@ RSpec.describe Post do
 end
 ```
 - example 전체를 skip
+
+<br/>  
 
 ## xdescribe / xcontext
 
@@ -248,6 +296,8 @@ end
 
 ```
 - describe 혹은 context 전체를 스킵
+
+<br/>  
 
 ## it
 
