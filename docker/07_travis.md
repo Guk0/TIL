@@ -12,6 +12,8 @@
 
 5. 테스트 코드 실행 후 테스트가 성공하면 AWS같은 호스팅 사이트로 보내서 배포를 한다.
 
+<br>
+
 ## Travis ci
 
 깃헙에 소스를 올렷을때 Travis CI에서 그 소스를 트래킹 해야하기 때문에 깃헙과 travis ci가 연결되어 있어야 함.
@@ -41,11 +43,15 @@ after_success:
   - echo "Test Success"
 ```
 
+<br>
+
 ## EB(Elastic BeanStalk)
 
 Apache, Nginx 같은 서버에서 Java, NET, PHP, Node.js, Python, ruby 및 Docker과 함께 개발된 웹 응용프로그램 및 서비스를 배포하고 확장하기 쉬운 서비스.
 
 EB안에 여러 AWS 리소스들을 구성할 수 있음.
+
+<br>
 
 ## deploy
 
@@ -78,6 +84,8 @@ deploy:
 - Dockerfile.dev 로 배포하는 이유?
     - EB에서는 운영환경을 Docker로 배포했기 때문에 알아서 Dockerfile을 찾아 돌림.
     - Dockerfile.dev는 travis-ci를 위한 파일이라고 보면 됨.
+
+<br>
 
 ## 소스 파일을 전달하기 위한 접근 요건
 인증을 위해 api key 필요

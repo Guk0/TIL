@@ -27,6 +27,8 @@ mysql:
 FROM --platform=linux/x86_64 mysql:8.0
 ```
 
+<br>
+
 ## nodejs 와 mysql 문제
 
 mysql이 정상 시작되기 전에 nodejs가 시작되어 db에 연결할 수 없는 문제 발생.
@@ -39,6 +41,8 @@ depends_on:
 ```
 
 하지만 depends_on은 단순히 시작 시점만 바꾸는 것이고 mysql이 ready 상태로 바뀔 때 까지 기다리지 않음.
+
+<br>
 
 ## dockerize 사용
 
@@ -69,11 +73,13 @@ echo "start node server"
 npm run start
 ```
 
+<br>
 
 ## 기타 mysql 에러
 ### Client does not support authentication protocol requested by server; consider upgrading MySQL client
-
 command: --default-authentication-plugin=mysql_native_password
+
+<br>
 
 ### results Error: ER_HOST_NOT_PRIVILEGED: Host '172.19.0.4' is not allowed to connect to this MySQL server
 

@@ -16,8 +16,9 @@ unable to evaluate symlink...
 
 노드 모듈은 사실 카피를 할 필요가 없음. 불필요한 프로세스를 진행하는 것. 노드 모듈 지워주고 빌드하자.
 
-## 포트 매핑
+<br>
 
+## 포트 매핑
 띄어놓은 리액트 앱을 로컬에서 실행하려면 포트 매핑을 해줘야함. 
 
 `docker run -it -p 3000:3000 guk0/docker-react-app` 
@@ -26,8 +27,9 @@ unable to evaluate symlink...
 - i : 상호 입출력
 - p : tty를 활성화하여 bash 쉘을 사용
 
-## VOLUME
+<br>
 
+## VOLUME
 COPY 대신 VOLUME을 이용하여 소스를 변경하였을때 다시 이미지를 빌드하지 않아도 변경한 소스 부분이 어플리케이션에 반영하도록 함.
 
 **소스코드 지속적으로 변경!**
@@ -37,6 +39,8 @@ COPY 대신 VOLUME을 이용하여 소스를 변경하였을때 다시 이미지
 - -v /usr/src/app/node_modules : 호스트 디렉토리에 node_modules는 없기에 컨테이너에 매핑하지 말라고 하는 것.
 
 - -v $(pwd):/usr/src/app : pwd 경로에 있는 디렉터리 혹은 파일을 /usr/src/app 경로에서 참조
+
+<br>
 
 ## Docker-compose
 

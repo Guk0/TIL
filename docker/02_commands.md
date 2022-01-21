@@ -5,6 +5,8 @@
 - run : 컨테이너 생성 및 실행
 - hello-world : 이 컨테이너를 위한 이미지
 
+<br>
+
 ## 이미지로 컨테이너 생성하는 순서
 1. 먼저 파일 스냅샷이 되어 있는 것을 컨테이너의 하드 디스크 부분에 올린다.
 2. 시작 커맨드를 이용하여 어플리케이션을 실행한다.
@@ -27,6 +29,8 @@
 `docker run alpine ping localhost`
 
 - alpine 이미지로 도커 돌리고 localhost에 핑찍기
+
+<br>
 
 ## 도커 컨테이너의 생명주기
 docker run 은 docker create, docker start가 합쳐진 명령어임.
@@ -73,7 +77,6 @@ docker run 은 docker create, docker start가 합쳐진 명령어임.
 </br>
 
 ## redis 실행시켜보기
-
 `docker run redis`
 
 - redis 쭉 받아지고

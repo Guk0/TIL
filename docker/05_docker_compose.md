@@ -2,6 +2,8 @@
 ## docker compose
 다중 컨테이너 도커 어플리케이션을 정의하고 실행하기 위한 도구
 
+<br>
+
 ## Redis
 레디스란?
 
@@ -18,6 +20,8 @@ redis 컨테이너와 nodejs 컨테이너간 통신을 위해서는 설정을 �
 `docker run guk0/docker-compose`
 
 멀티 컨테이너 상황에서 쉽게 네트워크를 연결해주기 위해 docker compose를 사용한다
+
+<br>
 
 ## compose
 
