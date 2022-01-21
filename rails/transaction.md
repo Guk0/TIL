@@ -16,12 +16,7 @@
 
 
 ## isolation level
-|level|설명|
-|--|--|
-|read uncommitted|커밋되지 않은 데이터 read 허용|
-|read commit|커밋된 데이터만 read 허용|
-|repeatable reads|트랜잭션 내에서 read한 데이터는 update, destroy 불가|
-|serializable|트랜잭션 내에서 read한 테이블에 write 연산 불가|
+ read uncommitted, read commit, repeatable reads, serializable
 
 - postgresql에서는 read commit이 defualt.
 - active record transaction 메서드의 default isolation level은 db의 default isolation level을 따라감.
