@@ -12,16 +12,6 @@
   - transaction 블럭 안의 write 연산이 실행되면 해당 데이터의 write 연산은 수행하지 못하도록 Lock을 건다. 
   - 이 Lock은 실제 운영 환경에서 다양한 문제를 초래할 수 있기 때문에 주의가 필요하다.
 
-    <br>
-
-
-## isolation level
- read uncommitted, read commit, repeatable reads, serializable
-
-- postgresql에서는 read commit이 defualt.
-- active record transaction 메서드의 default isolation level은 db의 default isolation level을 따라감.
-  - mysql: repeatable_read.
-  - postgresql: read_committed.
 
 
 <br>
@@ -36,6 +26,19 @@
   - begin만 있고 commit 쿼리가 없고 console을 종료하면 rollback 쿼리를 날린다.
 
   <img src="https://github.com//Guk0/TIL/blob/master/images/transaction2.png?raw=true" alt="drawing" width="600"/>
+
+  
+<br>
+  
+
+## Isolation level
+ read uncommitted, read commit, repeatable reads, serializable
+
+- postgresql에서는 read commit이 defualt.
+- active record transaction 메서드의 default isolation level은 db의 default isolation level을 따라감.
+  - mysql: repeatable_read.
+  - postgresql: read_committed.
+
 
 
 <br><br>
