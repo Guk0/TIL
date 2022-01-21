@@ -40,7 +40,7 @@
       - 따라서 트랜잭션 내에서 새로운 데이터가 조회되는 문제 발생.
 
 
-  <img src="https://github.com//Guk0/TIL/blob/master/images/transactionDB.png?raw=true" alt="drawing" width="600"/>
+  <img src="https://github.com//Guk0/TIL/blob/master/images/transactionDB.png?raw=true" alt="drawing" width="800"/>
 
 <br>
 
