@@ -1,9 +1,15 @@
 # Transaction 사용시 주의 사항
 
 ## Transaction
-  - 함께 수행해야할 작업의 논리적 단위.
-  - DB write 연산(create, update, destroy)를 하나의 코드 블럭으로 묶어 연산이 하나라도 실패하면 나머지 연산들은 rollback하여 연산 이전 상태로 돌아가는 기능
-  - begin query로 시작하여 commit이나 rollback으로 끝난다.
+  > 함께 수행해야할 작업의 논리적 단위.  
+  ``` ruby
+    ActiveRecord::Base.transaction do  
+      ...
+    end
+
+  ```
+  - DB write 연산(create, update, destroy)를 transaction block 안에 정의하여 연산이 하나라도 실패하면 나머지 연산들은 rollback하여 연산 이전 상태로 돌아감. 모두 성공하면 commit하여 연산 반영
+  - begin으로 시작하여 commit이나 rollback으로 끝난다.
   - transaction block 안에 write 연산이 성공적으로 수행되면 commit, 실패하면 rollback.
   
   <img src="https://github.com//Guk0/TIL/blob/master/images/transaction1.png?raw=true" alt="drawing" width="600"/>
