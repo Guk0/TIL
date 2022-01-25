@@ -5,10 +5,10 @@ result = 666
 count = 1
 
 while count != number:
-	result += 1
-	if '666' in str(result):
-		count += 1
-		
+  result += 1
+  if '666' in str(result):
+    count += 1
+    
 
 print(result)
 

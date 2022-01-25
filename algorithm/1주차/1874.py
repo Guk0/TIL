@@ -8,20 +8,20 @@ result = []
 operator_arr = []
 
 for i in range(0, length):
-	stack.append(i + 1)
-	operator_arr.append("+")
-	while stack[len(stack) - 1] == target_arr[len(result)]:
-		result.append(stack.pop())
-		operator_arr.append("-")
-		if len(stack) == 0:
-			break
+  stack.append(i + 1)
+  operator_arr.append("+")
+  while stack[len(stack) - 1] == target_arr[len(result)]:
+    result.append(stack.pop())
+    operator_arr.append("-")
+    if len(stack) == 0:
+      break
 
 
 if result == target_arr:
-	for el in operator_arr:
-		print(el)
+  for el in operator_arr:
+    print(el)
 else:
-	print("NO")
+  print("NO")
 
 
 # 스택과 list가 있고 스택을 이용하여 list가 주어진 수열과 같게 만드는 문제.

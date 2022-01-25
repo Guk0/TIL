@@ -4,7 +4,7 @@ amount, target_cnt = map(int, sys.stdin.readline().split(" "))
 line_arr = []
 
 for _ in range(amount):
-	line_arr.append(int(sys.stdin.readline().strip()))
+  line_arr.append(int(sys.stdin.readline().strip()))
 
 
 min_l = 1
@@ -12,15 +12,15 @@ max_l = max(line_arr)
 
 
 while min_l <= max_l:
-	mid = (max_l + min_l) // 2
-	cnt = 0
-	for el in line_arr:
-		cnt += el // mid
-	
-	if cnt >= target_cnt:
-		min_l = mid + 1
-	else:
-		max_l = mid - 1
+  mid = (max_l + min_l) // 2
+  cnt = 0
+  for el in line_arr:
+    cnt += el // mid
+  
+  if cnt >= target_cnt:
+    min_l = mid + 1
+  else:
+    max_l = mid - 1
 
 print(max_l)
 
