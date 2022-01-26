@@ -12,6 +12,8 @@
 | 수 찾기 | https://www.acmicpc.net/problem/1920 | S4  | O       |
 | 소수 구하기 | https://www.acmicpc.net/problem/1929 | S2  | O       |
 | 프린터 큐 | https://www.acmicpc.net/problem/1966 | S3  | O       |
+| 소수 찾기	| https://www.acmicpc.net/problem/1978 | S4  | O       |
+| 통계학 | https://www.acmicpc.net/problem/2108 | S4  | O       |
 
 
 
