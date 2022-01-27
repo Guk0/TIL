@@ -14,6 +14,7 @@
 | 프린터 큐 | https://www.acmicpc.net/problem/1966 | S3  | O       |
 | 소수 찾기	| https://www.acmicpc.net/problem/1978 | S4  | O       |
 | 통계학 | https://www.acmicpc.net/problem/2108 | S4  | O       |
-
-
-
+| 카드2 | https://www.acmicpc.net/problem/2164 | S4  | △       |
+| 분해합 | https://www.acmicpc.net/problem/2231 | B2  |  O      |
+| 벌집 | https://www.acmicpc.net/problem/2292 | B2  |  O      |
+| 최대공약수와 최소공배수	 | https://www.acmicpc.net/problem/2609 | S5  |  △      |
