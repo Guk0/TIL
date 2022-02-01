@@ -28,3 +28,12 @@
 | 균형잡힌 세상	 | https://www.acmicpc.net/problem/4949 | S4  |  O      |
 | 덩치	 | https://www.acmicpc.net/problem/7568 | S5  |  △      |
 | 괄호	 | https://www.acmicpc.net/problem/9012 | S4  |  O      |
+
+
+# 2주차
+
+| 문제 | 링크 | Lv  | Solved? |
+| --- | --- | --- | --- |
+| 피보나치 함수	 | https://www.acmicpc.net/problem/1003 | S3   | O       |
+| 유기농 배추	| https://www.acmicpc.net/problem/1012 | S2   | △       |
+| Z	| https://www.acmicpc.net/problem/1074 | S1   | △       |
