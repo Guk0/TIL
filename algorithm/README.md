@@ -40,5 +40,10 @@
 | 리모컨	| https://www.acmicpc.net/problem/1107 | G4   | △       |
 | DFS와 BFS	| https://www.acmicpc.net/problem/1260 | S2   | △       |
 | 케빈 베이컨의 6단계 법칙	| https://www.acmicpc.net/problem/1389 | S1   | O       |
+| 1로 만들기	| https://www.acmicpc.net/problem/1463 | S3   | △       |
+| 잃어버린 괄호	| https://www.acmicpc.net/problem/1541 | S2   | O       |
+| 나는야 포켓몬 마스터 이다솜		| https://www.acmicpc.net/problem/1620 | S4   | O       |
+| 팩토리얼 0의 개수		| https://www.acmicpc.net/problem/1676 | S4   | O       |
 
 | 마인크래프트	| https://www.acmicpc.net/problem/18111 | S2   | O       |
+

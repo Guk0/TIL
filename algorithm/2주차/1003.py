@@ -2,6 +2,8 @@
 # 피보나치 함수
 # DP
 
+# dictionary로 풂. 0과 1을 미리 할당해놓고 2부터 m까지 이전꺼를 계속 더해나감.
+
 import sys
 
 n = int(sys.stdin.readline())
