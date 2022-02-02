@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/1012
+# 유기농배추
+# DFS
+
 import sys
 sys.setrecursionlimit(9999)
 
@@ -34,5 +38,3 @@ for _ in range(T):
 
   print(cnt)
 
-
-# DFS로 풂.

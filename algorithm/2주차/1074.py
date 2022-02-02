@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/1074
+# Z
+# 재귀
+
 import sys
 
 N, r, c = map(int, sys.stdin.readline().split(" "))
@@ -28,5 +32,3 @@ def check(n, y, x):
   return start + check(n-1, y, x)
   
 print(check(N, r, c))
-
-# 재귀
