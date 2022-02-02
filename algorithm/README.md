@@ -37,3 +37,8 @@
 | 피보나치 함수	 | https://www.acmicpc.net/problem/1003 | S3   | O       |
 | 유기농 배추	| https://www.acmicpc.net/problem/1012 | S2   | △       |
 | Z	| https://www.acmicpc.net/problem/1074 | S1   | △       |
+| 리모컨	| https://www.acmicpc.net/problem/1107 | G4   | △       |
+| DFS와 BFS	| https://www.acmicpc.net/problem/1260 | S2   | △       |
+| 케빈 베이컨의 6단계 법칙	| https://www.acmicpc.net/problem/1389 | S1   | O       |
+
+| 마인크래프트	| https://www.acmicpc.net/problem/18111 | S2   | O       |
