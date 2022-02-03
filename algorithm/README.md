@@ -44,6 +44,9 @@
 | 잃어버린 괄호	| https://www.acmicpc.net/problem/1541 | S2   | O       |
 | 나는야 포켓몬 마스터 이다솜		| https://www.acmicpc.net/problem/1620 | S4   | O       |
 | 팩토리얼 0의 개수		| https://www.acmicpc.net/problem/1676 | S4   | O       |
+| 숨바꼭질		| https://www.acmicpc.net/problem/1697 | S1   | △       |
+| 듣보잡		| https://www.acmicpc.net/problem/1764 | S4   | O       |
+| 종이의 개수			| https://www.acmicpc.net/problem/1780 | S2   | O       |
 
 | 마인크래프트	| https://www.acmicpc.net/problem/18111 | S2   | O       |
 
