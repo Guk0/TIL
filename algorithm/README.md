@@ -47,7 +47,6 @@
 | 숨바꼭질		| https://www.acmicpc.net/problem/1697 | S1   | △       |
 | 듣보잡		| https://www.acmicpc.net/problem/1764 | S4   | O       |
 | 종이의 개수			| https://www.acmicpc.net/problem/1780 | S2   | O       |
-
 | 숫자카드2	| https://www.acmicpc.net/problem/10816 | S4   | O       |
 | 스택	| https://www.acmicpc.net/problem/10828 | S4   | O       |
 | 큐	| https://www.acmicpc.net/problem/10845 | S4   | O       |
