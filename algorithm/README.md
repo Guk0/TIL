@@ -48,5 +48,15 @@
 | 듣보잡		| https://www.acmicpc.net/problem/1764 | S4   | O       |
 | 종이의 개수			| https://www.acmicpc.net/problem/1780 | S2   | O       |
 
+| 숫자카드2	| https://www.acmicpc.net/problem/10816 | S4   | O       |
+| 스택	| https://www.acmicpc.net/problem/10828 | S4   | O       |
+| 큐	| https://www.acmicpc.net/problem/10845 | S4   | O       |
+| 덱	| https://www.acmicpc.net/problem/10866 | S4   | O       |
+| 수 정렬하기3	| https://www.acmicpc.net/problem/10989 | S5   | O       |
+| 이항 계수1	| https://www.acmicpc.net/problem/11050 | B1   | O       |
+| 좌표 정렬하기	| https://www.acmicpc.net/problem/11650 | S5   | O       |
+| 좌표 정렬하기2	| https://www.acmicpc.net/problem/11651 | S5   | O       |
+| 요세푸스 문제 0	| https://www.acmicpc.net/problem/11866 | S4   | O       |
+| Hashing	| https://www.acmicpc.net/problem/15829 | B2   | O       |
 | 마인크래프트	| https://www.acmicpc.net/problem/18111 | S2   | O       |
 
