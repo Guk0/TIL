@@ -51,6 +51,7 @@
 | 회의실 배정			| https://www.acmicpc.net/problem/1931 | S2   | △       |
 | 쿼드트리			| https://www.acmicpc.net/problem/1992 | S2   | O       |
 | 미로탐색			| https://www.acmicpc.net/problem/2178 | S1   | △       |
+| 계단오르기			| https://www.acmicpc.net/problem/2579 | S3   | △       |
 | 숫자카드2	| https://www.acmicpc.net/problem/10816 | S4   | O       |
 | 스택	| https://www.acmicpc.net/problem/10828 | S4   | O       |
 | 큐	| https://www.acmicpc.net/problem/10845 | S4   | O       |
@@ -63,3 +64,9 @@
 | Hashing	| https://www.acmicpc.net/problem/15829 | B2   | O       |
 | 마인크래프트	| https://www.acmicpc.net/problem/18111 | S2   | O       |
 
+
+# 3주차
+
+| 문제 | 링크 | Lv  | Solved? |
+| --- | --- | --- | --- |
+| 바이러스 | https://www.acmicpc.net/problem/2606 | S3 |  |
