@@ -50,6 +50,7 @@
 | 최소 힙			| https://www.acmicpc.net/problem/1927 | S2   | O       |
 | 회의실 배정			| https://www.acmicpc.net/problem/1931 | S2   | △       |
 | 쿼드트리			| https://www.acmicpc.net/problem/1992 | S2   | O       |
+| 미로탐색			| https://www.acmicpc.net/problem/2178 | S1   | △       |
 | 숫자카드2	| https://www.acmicpc.net/problem/10816 | S4   | O       |
 | 스택	| https://www.acmicpc.net/problem/10828 | S4   | O       |
 | 큐	| https://www.acmicpc.net/problem/10845 | S4   | O       |
