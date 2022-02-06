@@ -69,4 +69,5 @@
 
 | 문제 | 링크 | Lv  | Solved? |
 | --- | --- | --- | --- |
-| 바이러스 | https://www.acmicpc.net/problem/2606 | S3 |  |
+| 바이러스 | https://www.acmicpc.net/problem/2606 | S3 | O  |
+| 색종이 만들기 | https://www.acmicpc.net/problem/2630 | S3 | O  |
