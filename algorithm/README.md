@@ -30,6 +30,8 @@
 | 괄호	 | https://www.acmicpc.net/problem/9012 | S4  |  O      |
 
 
+<br>
+
 # 2주차
 
 | 문제 | 링크 | Lv  | Solved? |
@@ -65,9 +67,13 @@
 | 마인크래프트	| https://www.acmicpc.net/problem/18111 | S2   | O       |
 
 
+<br>
+
 # 3주차
 
 | 문제 | 링크 | Lv  | Solved? |
 | --- | --- | --- | --- |
 | 바이러스 | https://www.acmicpc.net/problem/2606 | S3 | O  |
 | 색종이 만들기 | https://www.acmicpc.net/problem/2630 | S3 | O  |
+| 단지번호붙이기 | https://www.acmicpc.net/problem/2667 | S1 | O  |
+| AC | https://www.acmicpc.net/problem/5430 | G5 | O  |
