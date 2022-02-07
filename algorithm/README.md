@@ -77,3 +77,4 @@
 | 색종이 만들기 | https://www.acmicpc.net/problem/2630 | S3 | O  |
 | 단지번호붙이기 | https://www.acmicpc.net/problem/2667 | S1 | O  |
 | AC | https://www.acmicpc.net/problem/5430 | G5 | O  |
+| IOIOI | https://www.acmicpc.net/problem/5525 | S2 | △  |
