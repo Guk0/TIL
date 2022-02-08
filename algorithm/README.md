@@ -78,3 +78,5 @@
 | 단지번호붙이기 | https://www.acmicpc.net/problem/2667 | S1 | O  |
 | AC | https://www.acmicpc.net/problem/5430 | G5 | O  |
 | IOIOI | https://www.acmicpc.net/problem/5525 | S2 | △  |
+| 카잉 달력 | https://www.acmicpc.net/problem/6064 | S1 | △  |
+ 
