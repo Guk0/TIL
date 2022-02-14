@@ -81,3 +81,12 @@
 | 카잉 달력 | https://www.acmicpc.net/problem/6064 | S1 | △  |
 | 토마토 | https://www.acmicpc.net/problem/7569 | G5 | O  |
 
+# 4주차
+
+| 문제 | 링크 | Lv  | Solved? |
+| --- | --- | --- | --- |
+| 토마토 | https://www.acmicpc.net/problem/7576 | G5 | O  |
+<!-- | 이중 우선순위 큐 | https://www.acmicpc.net/problem/7662 | G5 | O  | -->
+
+
+
