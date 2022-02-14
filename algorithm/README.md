@@ -79,5 +79,5 @@
 | AC | https://www.acmicpc.net/problem/5430 | G5 | O  |
 | IOIOI | https://www.acmicpc.net/problem/5525 | S2 | △  |
 | 카잉 달력 | https://www.acmicpc.net/problem/6064 | S1 | △  |
-| 토마토 | https://www.acmicpc.net/problem/7569 | G4 | O  |
+| 토마토 | https://www.acmicpc.net/problem/7569 | G5 | O  |
 
