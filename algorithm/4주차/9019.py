@@ -1,6 +1,8 @@
 # https://www.acmicpc.net/problem/9019
 # DSLR
 
+# pypy3로 통과
+
 from sys import stdin
 from collections import deque
 
@@ -11,28 +13,16 @@ def operation_D(number):
 def operation_S(number):
   return number-1 if number > 0 else 9999
 
-def operation_L(number):
-  char_number = str(number)
-  char_number = "0" * (4 - len(char_number)) + char_number
-  arr = list(char_number)
-  arr.append(arr.pop(0))
+def operation_L(number):  
+  return (number % 1000)*10 + (number // 1000)
 
-  return int("".join(arr))
-
-def operation_R(number):
-  char_number = str(number)
-  char_number = "0" * (4 - len(char_number)) + char_number
-  arr = list(char_number)
-  arr.insert(0, arr.pop())
-
-  return int("".join(arr))
-
-
+def operation_R(number):  
+  return (number % 10) * 1000 + (number // 10)
 
 def bfs(x, y):
   queue = deque()  
   queue.append([x, ""])
-  visited = [x]
+  visited = [False] * 10001
   while queue:
     number, operators = queue.popleft()
 
@@ -41,23 +31,24 @@ def bfs(x, y):
       break
 
     D = operation_D(number)
-    if not D in visited:
+    if not visited[D]:
       queue.append([D, operators + "D"])
-      visited.append(D)
+      visited[D] = True
     
     S = operation_S(number)
-    if not S in visited:
+    if not visited[S]:
       queue.append([S, operators + "S"])
-      visited.append(S)
+      visited[S] = True
 
     L = operation_L(number)
-    if not L in visited:
+    if not visited[L]:
       queue.append([L, operators + "L"])
+      visited[L] = True
     
     R = operation_R(number)
-    if not R in visited:
-      queue.append([R, operators + "L"])
-
+    if not visited[R]:
+      queue.append([R, operators + "R"])
+      visited[R] = True
 
 N = int(stdin.readline())
 
