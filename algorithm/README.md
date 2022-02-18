@@ -91,3 +91,4 @@
 | 1,2,3 더하기 | https://www.acmicpc.net/problem/9095 | S3 | O  |
 | 패션왕 신해빈 | https://www.acmicpc.net/problem/9095 | S3 | △  |
 | 파도반 수열 | https://www.acmicpc.net/problem/9461 | S3 | O  |
+| 적록색약 | https://www.acmicpc.net/problem/10026 | G5 | O  |
