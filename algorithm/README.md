@@ -92,3 +92,7 @@
 | 패션왕 신해빈 | https://www.acmicpc.net/problem/9095 | S3 | △  |
 | 파도반 수열 | https://www.acmicpc.net/problem/9461 | S3 | O  |
 | 적록색약 | https://www.acmicpc.net/problem/10026 | G5 | O  |
+| 동전 0 | https://www.acmicpc.net/problem/11047 | S3 | O  |
+| 최대힙 | https://www.acmicpc.net/problem/11279 | S2 | O  |
+| 절댓값 힙 | https://www.acmicpc.net/problem/11286 | S1 | O  |
+| ATM | https://www.acmicpc.net/problem/11403 | S3 | O  |
