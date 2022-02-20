@@ -95,4 +95,5 @@
 | 동전 0 | https://www.acmicpc.net/problem/11047 | S3 | O  |
 | 최대힙 | https://www.acmicpc.net/problem/11279 | S2 | O  |
 | 절댓값 힙 | https://www.acmicpc.net/problem/11286 | S1 | O  |
-| ATM | https://www.acmicpc.net/problem/11403 | S3 | O  |
+| ATM | https://www.acmicpc.net/problem/11399 | S3 | O  |
+| 경로 찾기 | https://www.acmicpc.net/problem/11403 | S1 | △  |
