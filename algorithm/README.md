@@ -105,3 +105,4 @@
 | --- | --- | --- | --- |
 | 구간 합 구하기 4 | https://www.acmicpc.net/problem/11659 | S3 | O  |
 | 집합 | https://www.acmicpc.net/problem/11723 | S5 | O  |
+| 연결 요소의 개수 | https://www.acmicpc.net/problem/11723 | S2 | △  |
