@@ -1,6 +1,15 @@
 # https://www.acmicpc.net/problem/11724
 # 연결 요소의 개수
 
+# test data
+# 6 5
+# 1 2
+# 2 5
+# 5 1
+# 3 4
+# 4 6
+
+# graph : [[], [2, 5], [1, 5], [4], [3, 6], [2, 1], [4]]
 
 from sys import stdin
 from collections import deque
@@ -18,12 +27,11 @@ for _ in range(M):
   graph[x].append(y)
   graph[y].append(x)
 
-
 def bfs(x):
   global cnt
   queue.append(x)
   while queue:
-    i = queue.popleft()    
+    i = queue.popleft()
     for j in graph[i]:
       if not visited[j]:
         queue.append(j)

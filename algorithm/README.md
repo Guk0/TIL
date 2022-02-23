@@ -106,3 +106,5 @@
 | 구간 합 구하기 4 | https://www.acmicpc.net/problem/11659 | S3 | O  |
 | 집합 | https://www.acmicpc.net/problem/11723 | S5 | O  |
 | 연결 요소의 개수 | https://www.acmicpc.net/problem/11723 | S2 | △  |
+| 2xn 타일링 | https://www.acmicpc.net/problem/11726 | S3 | O |
+| 2xn 타일링 2 | https://www.acmicpc.net/problem/11726 | S3 | O |
