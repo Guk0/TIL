@@ -108,3 +108,4 @@
 | 연결 요소의 개수 | https://www.acmicpc.net/problem/11723 | S2 | △  |
 | 2xn 타일링 | https://www.acmicpc.net/problem/11726 | S3 | O |
 | 2xn 타일링 2 | https://www.acmicpc.net/problem/11726 | S3 | O |
+| 테트로미노 | https://www.acmicpc.net/problem/14500 | G5 | △ |
