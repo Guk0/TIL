@@ -109,3 +109,6 @@
 | 2xn 타일링 | https://www.acmicpc.net/problem/11726 | S3 | O |
 | 2xn 타일링 2 | https://www.acmicpc.net/problem/11726 | S3 | O |
 | 테트로미노 | https://www.acmicpc.net/problem/14500 | G5 | △ |
+| 아기상어 | https://www.acmicpc.net/problem/16236 | G3 |  |
+| 비밀번호 찾기 | https://www.acmicpc.net/problem/17219 | S4 | O |
+| Four Squares | https://www.acmicpc.net/problem/17626 | S4 |  |
