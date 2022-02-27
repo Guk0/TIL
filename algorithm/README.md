@@ -111,4 +111,6 @@
 | 테트로미노 | https://www.acmicpc.net/problem/14500 | G5 | △ |
 | 아기상어 | https://www.acmicpc.net/problem/16236 | G3 |  |
 | 비밀번호 찾기 | https://www.acmicpc.net/problem/17219 | S4 | O |
-| Four Squares | https://www.acmicpc.net/problem/17626 | S4 |  |
+| Four Squares | https://www.acmicpc.net/problem/17626 | S4 | △ |
+| 좌표 압축 | https://www.acmicpc.net/problem/18870 | S2 | O |
+| 뱀과 사다리 게임 | https://www.acmicpc.net/problem/16928 | S1 | △ |
