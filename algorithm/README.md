@@ -86,7 +86,7 @@
 | 문제 | 링크 | Lv  | Solved? |
 | --- | --- | --- | --- |
 | 토마토 | https://www.acmicpc.net/problem/7576 | G5 | O  |
-| 이중 우선순위 큐 | https://www.acmicpc.net/problem/7662 | G5 |   |
+| 이중 우선순위 큐 | https://www.acmicpc.net/problem/7662 | G5 | △ |
 | DSLR | https://www.acmicpc.net/problem/9019 | G5 | O  |
 | 1,2,3 더하기 | https://www.acmicpc.net/problem/9095 | S3 | O  |
 | 패션왕 신해빈 | https://www.acmicpc.net/problem/9095 | S3 | △  |
