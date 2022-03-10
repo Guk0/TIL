@@ -10,6 +10,18 @@
 
 
 from sys import stdin
+from collections import deque
 
 N = int(stdin.readline())
+arr = [list(map(int, stdin.readline().split())) for _ in range(N)]
+queue = deque()
+time = 0
+
+def bfs():
+  queue.
+
+
+
+# https://yunanp.tistory.com/12
+
 
