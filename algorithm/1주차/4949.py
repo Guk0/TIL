@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/4949
+# 균형잡힌 세상
+# 스택
+
 import sys
 
 target_dict = {"(": ")", "[": "]"}

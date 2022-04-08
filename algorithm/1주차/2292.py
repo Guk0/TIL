@@ -1,3 +1,8 @@
+# https://www.acmicpc.net/problem/2292
+# 벌집
+
+# cnt는 1씩 늘어나면서  result 에 6*cnt 씩 더함. result가 n보다 크면 print하고 break
+
 import sys
 
 n = int(sys.stdin.readline())
@@ -15,5 +20,3 @@ while True:
 		print(cnt)
 		break
 	
-	
-# cnt는 1씩 늘어나면서  result 에 6*cnt 씩 더함. result가 n보다 크면 print하고 break

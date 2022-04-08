@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/2805
+# 나무자르기
+# 이분탐색(binary search)
+
 import sys
 
 n, m = map(int, sys.stdin.readline().split(" "))

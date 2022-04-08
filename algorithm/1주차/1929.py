@@ -1,3 +1,10 @@
+# https://www.acmicpc.net/problem/1929
+# 소수 구하기
+
+# 소수 구하는 문제
+# 제곱근 까지만 돌리면 N(logn)
+# 6000ms 나왔는데 더 줄일 수 있는 방법이 있을까
+
 import sys
 import math
 
@@ -14,8 +21,3 @@ for i in range(N, M+1):
       break
   if result:
     print(i)
-
-
-# 소수 구하는 문제
-# 제곱근 까지만 돌리면 N(logn)
-# 6000ms 나왔는데 더 줄일 수 있는 방법이 있을까

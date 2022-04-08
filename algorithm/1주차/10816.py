@@ -1,3 +1,8 @@
+# https://www.acmicpc.net/problem/10816
+# 숫자카드
+# 해시, 이분탐색(해시로 풀긴했는데 이분탐색이 깔끔한듯)
+
+
 import sys
 
 n = int(sys.stdin.readline())

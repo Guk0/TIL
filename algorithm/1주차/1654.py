@@ -1,3 +1,10 @@
+# https://www.acmicpc.net/problem/1654
+# 랜선자르기
+# 이분탐색(binary search)
+
+# binary search를 사용하지 않고 풀다가 시간초과 뜸. 0부터 +1을 해서 찾는 것 보다 
+# max number가 정해져 있다면 binary search를 사용하여 푸는게 시간 복잡도가 덜 함.
+
 import sys
 
 amount, target_cnt = map(int, sys.stdin.readline().split(" "))
@@ -24,6 +31,3 @@ while min_l <= max_l:
 
 print(max_l)
 
-
-# binary search를 사용하지 않고 풀다가 시간초과 뜸. 0부터 +1을 해서 찾는 것 보다 
-# max number가 정해져 있다면 binary search를 사용하여 푸는게 시간 복잡도가 덜 함.

@@ -1,3 +1,10 @@
+# https://www.acmicpc.net/problem/1920
+# 수 찾기
+# 이진탐색
+
+# N이 최대 100,000이고 M도 최대 100,000이므로 이진탐색 쓰는게 좋을듯.
+# 이진탐색은 반드시 정렬된 상태에서 사용해야함.
+
 import sys
 
 N = int(sys.stdin.readline())
@@ -19,5 +26,3 @@ for i in arr:
       print("1")
       break
   print("0")
-
-# 이진탐색

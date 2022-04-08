@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/9012
+# 괄호
+# 스택
+
 import sys
 
 n = int(sys.stdin.readline())

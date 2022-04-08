@@ -1,3 +1,8 @@
+# https://www.acmicpc.net/problem/1018
+# 체스판 다시 칠하기
+# 부르트포스(모든 경우의 수를 계산해야함)
+
+
 n, m = map(int, input().split(" "))
 original = []
 count = []
@@ -27,7 +32,5 @@ for a in range(n-7):
 print(min(count))
 
 
-# https://www.acmicpc.net/problem/1018
-# 부르트포스(모든 경우의 수를 계산해야함)
 # 첫번째 색깔을 바꾸는 경우가 더 횟수가 작은 경우를 고려 안하고 그냥 고정인 상태로 최소값을 구하는 로직을 짬.
 # 위와 같이 변경.

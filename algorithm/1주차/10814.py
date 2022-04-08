@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/10814
+# 나이순 정렬
+# 해시
+
 import sys
 n = int(sys.stdin.readline())
 

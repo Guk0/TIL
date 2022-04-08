@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/1181
+# 단어 정렬
+
+
 import sys
 
 cnt = int(sys.stdin.readline())
@@ -15,7 +19,6 @@ for char in arr:
   print(char)
 
 
-# https://www.acmicpc.net/problem/1181
 # sort() 안쓰고 아래와 같이 구현했다가 시간초과 떠서 sort() 써서 위와 같이 구현
 
 

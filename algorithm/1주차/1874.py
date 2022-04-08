@@ -1,3 +1,11 @@
+# https://www.acmicpc.net/problem/1874
+# 스택수열
+# 스택
+
+# 스택과 list가 있고 스택을 이용하여 list가 주어진 수열과 같게 만드는 문제.
+# stack 의 마지막 el과 target_arr를 비교. 
+# stack의 마지막 숫자가 target_arr의 result 다음 el과 같으면 while문을 돌려서 stack에서 빼고 result에 append한다.
+
 import sys
 
 length = int(sys.stdin.readline())
@@ -22,8 +30,3 @@ if result == target_arr:
     print(el)
 else:
   print("NO")
-
-
-# 스택과 list가 있고 스택을 이용하여 list가 주어진 수열과 같게 만드는 문제.
-# stack 의 마지막 el과 target_arr를 비교. 
-# stack의 마지막 숫자가 target_arr의 result 다음 el과 같으면 while문을 돌려서 stack에서 빼고 result에 append한다.

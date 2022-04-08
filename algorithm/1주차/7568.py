@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/7568
+# 덩치
+
 import sys
 
 n = int(sys.stdin.readline())

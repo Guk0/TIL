@@ -1,3 +1,15 @@
+# https://www.acmicpc.net/problem/2108
+# 통계학
+
+
+# 셋째 줄에는 최빈값을 출력한다. 여러 개 있을 때에는 최빈값 중 두 번째로 작은 값을 출력한다.
+# dict를 두개 만들어 num_dict는  key에 el, value에 count를 담고 frequent_dict는 key에 count, value에 el list를 담는다.
+# 즉 아래와 같은 모양
+# {4000: 2, 4001: 2, 4003: 1, 4004: 2}
+# {1: [4001], 2: [4000, 4003, 4004}
+
+#frequent_dict의 key를 sort하여 마지막 index의 key를 가져와 해당 키의 list를 sort하여 인덱스 1의 값을 return한다.
+
 import sys
 
 n = int(sys.stdin.readline())
@@ -42,12 +54,3 @@ print(arr_average(arr))
 print(arr_mid(sorted_arr))
 print(frequent(arr))
 print(arr_range(sorted_arr))
-
-
-# 셋째 줄에는 최빈값을 출력한다. 여러 개 있을 때에는 최빈값 중 두 번째로 작은 값을 출력한다.
-# dict를 두개 만들어 num_dict는  key에 el, value에 count를 담고 frequent_dict는 key에 count, value에 el list를 담는다.
-# 즉 아래와 같은 모양
-# {4000: 2, 4001: 2, 4003: 1, 4004: 2}
-# {1: [4001], 2: [4000, 4003, 4004}
-
-#frequent_dict의 key를 sort하여 마지막 index의 key를 가져와 해당 키의 list를 sort하여 인덱스 1의 값을 return한다.

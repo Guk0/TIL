@@ -1,3 +1,6 @@
+# https://www.acmicpc.net/problem/10250
+# ACM 호텔
+
 import sys
 n = int(sys.stdin.readline())
 

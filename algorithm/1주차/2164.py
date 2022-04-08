@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/2164
+# 카드 2
+# 큐, deque
+
 import sys
 
 n = int(sys.stdin.readline())

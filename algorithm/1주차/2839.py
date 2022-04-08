@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/2839
+# 설탕배달
+# 그리디
+
 import sys
 
 n = int(sys.stdin.readline())

@@ -1,3 +1,7 @@
+# https://www.acmicpc.net/problem/10773
+# 제로
+# 스택
+
 import sys
 
 n = int(sys.stdin.readline())

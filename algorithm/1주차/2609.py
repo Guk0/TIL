@@ -1,3 +1,9 @@
+# https://www.acmicpc.net/problem/2609
+# 최대공약수와 최소공배수
+
+# *** 최소공배수는 두 수의 곱 / 최대공약수 로 계산한다. ***
+
+
 import sys
 
 n, m = map(int, sys.stdin.readline().split(" "))
@@ -20,6 +26,3 @@ min_num = n * m // max_num
 
 print(max_num)
 print(min_num)
-
-
-# 최소 공배수는 두 수의 곱 / 최대 공약수 로 계산한다.

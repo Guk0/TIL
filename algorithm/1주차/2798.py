@@ -1,3 +1,9 @@
+# https://www.acmicpc.net/problem/2798
+# 블랙잭
+# 브루트포스
+
+# DP로 풀 수 있나
+
 import sys
 
 n, m = map(int, sys.stdin.readline().split(" "))
