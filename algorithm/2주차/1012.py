@@ -2,6 +2,47 @@
 # 유기농배추
 # DFS
 
+from sys import stdin
+from collections import deque
+
+input = stdin.readline
+
+T = int(input())
+
+for _ in range(T):
+  M, N, K = map(int, input().split())
+  visited = [[False for _ in range(M)] for _ in range(N)]
+  arr = [list(map(int, input().split())) for _ in range(K)]
+  stack = deque()
+  answer = 0
+
+  dx = [0, 1, 0, -1]
+  dy = [1, 0, -1, 0]
+
+  for el in arr:
+    stack.append([*el, 0])
+
+  while stack:
+    x, y, cnt = stack.pop()        
+    if not visited[y][x]:      
+      visited[y][x] = True
+      if cnt == 0:
+        answer += 1
+        cnt = 1        
+
+      for i in range(4):
+        nx = x + dx[i]
+        ny = y + dy[i]
+
+        if [nx, ny] in arr and 0 <= nx < M and 0 <= ny < N and not visited[ny][nx]:
+          stack.append([nx, ny, cnt])
+
+  print(answer)
+
+
+
+# DFS 로 개선하기 전
+
 import sys
 sys.setrecursionlimit(9999)
 
@@ -37,4 +78,3 @@ for _ in range(T):
 
 
   print(cnt)
-
