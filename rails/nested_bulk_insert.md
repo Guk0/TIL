@@ -8,7 +8,7 @@ PostgreSQL만 지원한다. 또, 인자로 일반적인 array나 array of hash�
 
 </br>
 
-아래와 같이 new로 MeetingProject를 initializing하고 has_many 관계에 있는 meeting_contents를 build하여 nested하게 인스턴스를 생성해준다음 recursive 옵션을 사용하여 nested하게 bulk insert를 한다.
+아래와 같이 new로 MeetingProject를 initializing하고 has_many 관계에 있는 meeting_contents를 build하여 nested하게 인스턴스를 생성해준다음 `recursive` 옵션을 사용하여 nested하게 bulk insert를 한다.
 
 ``` ruby
   bulk_arr = []
