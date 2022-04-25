@@ -43,3 +43,7 @@ Object 클래스는 모든 자료형의 parent class이며 사용자가 별다�
 
 Object를 상속 받는 자료형
 - String, Array, Numeric, Hash, NilClass, FalseClass, TrueClass
+
+<br>
+
+만약 Object에 정의된 매서드나 상수가 필요없는 클래스를 구현한다면 Object를 상속 받지 않고 새로운 parent 클래스를 만들어 상속 받을 수도 있다.
