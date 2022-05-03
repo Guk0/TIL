@@ -11,7 +11,7 @@
 {}.empty? # true
 
 if 0
-	puts 1
+  puts 1
 end
 # expect to print nothing. but it print 1
 ```
