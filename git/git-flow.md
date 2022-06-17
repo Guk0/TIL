@@ -6,9 +6,9 @@
 - git flow init으로 생성되는 브랜치는 6종류다
   - master : 사용자에게 배포되는 Stable 브랜치
   - develop : 다음 릴리즈를 위해 기능들을 모으는 최신 브랜치
-  - feature : 특정 기능 개발을 위한 브랜치
-  - release : 릴리즈를 위해 버그 픽스(Bug fix)를 모으는 브랜치 / 이번 출시 버전을 준비하는 브랜치
-  - hotfix : 긴급 버그 픽스를 위한 브랜치
+  - feature : develop base. 특정 기능 개발을 위한 브랜치
+  - release : develop 작업 사항 이전. 릴리즈를 위해 버그 픽스(Bug fix)를 모으는 브랜치 / 이번 출시 버전을 준비하는 브랜치
+  - hotfix : master base. 긴급 버그 픽스를 위한 브랜치
   - support : 버전 호환성 문제를 위한 브랜치
 - '-d' 옵션을 주면 브랜치 이름을 지정하지 않아도 된다.
 <br>
