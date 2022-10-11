@@ -1,4 +1,42 @@
-# Scanner vs BufferedReader
+# IO
+
+### Stream이란?
+
+- 한 곳에서 다른 곳으로의 데이터 흐름
+    - 파일 데이터, HTTP 응답 데이터, 키보드 입력
+- 단방향. 입력과 출력이 동시에 발생할 수 없다.
+    - 입력스트림(InputStream), 출력스트림(OutputStream)으로 나뉨.
+
+<br>
+
+### System.in.read()
+
+- System.in은 InputStream 타입의 필드임.
+    - `InputStream is = System.in;`
+- InputStream의 read() 메서드는 입력받은 데이터를 int형으로 저장함.
+    - 운영체제의 인코딩 형식(UTF-8)의 10진수로 변수에 저장됨.
+- 1byte 씩 읽는다.
+    - 일반적인 ascii 코드에 해당하는 문자열은 잘 읽음.
+    - 한글은 3byte 혹은 2byte에 해당하므로 제대로 읽어오지 못한다.
+
+<br>
+
+### InputStreamReader
+
+- InputStream의 read() 메서드가 1byte만 읽는 것을 보완하기 위한 클래스.
+
+```java
+import java.io.InputStream;
+import java.io.InputStreamReader;
+
+...
+
+InputStream inputstream = System.in;
+InputStreamReader sr = new InputStreamReader(inputstream);
+```
+
+<br>
+
 ### Scanner
 - 버퍼보다 속도가 느리다.
     - 데이터를 입력 받을 경우 즉시 사용자에게 전송. 매번 전송하기 때문에 많은 양의 데이터를 입력 받는 경우 버퍼보다 느림.
